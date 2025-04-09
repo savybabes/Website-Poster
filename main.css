@@ -1,0 +1,203 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: "ellograph-cf", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+  font-family: "ellograph-cf", monospace;
+  font-weight: 400;
+  width: 900px;
+  font-style: normal;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #F9F1F1;
+  }
+  
+  .flex-container {
+    background-color: #013364;
+    color: white;
+    width: 400px;
+    height: 140px;
+    padding-left: 10px;
+    margin: 0px;
+    padding-top: 15px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 30px;
+  }
+
+  .flex-container1 {
+    background-color: #CC1D1D;
+    color: white;
+    width: 400px;
+    height: 140px;
+    padding-left: 10px;
+    padding-top: 15px;
+    margin: 0px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 30px;
+  }
+
+  .flex-container2 {
+    background-color: #013364;
+    color: white;
+    width: 400px;
+    height: 140px;
+    padding-left: 10px;
+    padding-top: 15px;
+    margin: 0px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 30px;
+  }
+
+  .flex-container2:hover{
+    background-color: #0A6A38;
+  }
+
+  .flex-container3 {
+    background-color:#CC1D1D;
+    color: white;
+    width: 400px;
+    height: 140px;
+    padding-left: 10px;
+    padding-top: 15px;
+    margin: 0px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 30px;
+  }
+
+  .flex-container3:hover{
+    background-color: #0A6A38;
+  }
+  
+  .expand {
+    height: 550px;
+    width: 400px;
+    text-align: center; 
+  }
+
+  .expand2 {
+    height: 1000px;
+    width: 400px;
+    text-align: center; 
+  }
+
+  .flex-container:hover{
+    background-color: #0A6A38;
+  }
+
+  .flex-container1:hover{
+    background-color: #0A6A38;
+  }
+
+  .right-div {
+    position: absolute; /* Positions the div relative to the screen */
+    left: 30%; /* Aligns it to the left */
+    top: 30px; /* Moves it slightly down from the top */
+    right: 10%;
+    padding: 15px; /* Adds spacing inside the div */
+    background-color: #F9F1F1; /* Light gray background */
+    width: 1030px; /* Sets a fixed width */
+    height: 1000px;
+    font-size: 12px; /* Makes the text larger */
+}
+  #titles{
+    font-weight: 400;
+   font-size: 30px;
+  }
+
+  #subtitles {
+    font-size: 20px;
+  }
+  
+  .text-container {
+  font-size: 15px;
+  text-align: left;
+  margin: 8px;
+}
+
+.popupbox {
+  height: 400px;
+  background-color: #CC1D1D;
+  width: 700px;
+  padding-left: 50%;
+}
+
+#maria-carolina-cambre {
+  position: absolute;
+  padding: 30px;
+  padding-top: 30px;
+  padding-right: 50px;
+  opacity: 0;
+}
+#isabel-machado {
+  position: absolute;
+  padding: 30px;
+  color: black;
+  padding-top: 30px;
+  padding-right: 50px;
+  opacity: 0;
+}
+
+.date {
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.time { 
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.location { 
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.info { 
+  padding-right: 30px;
+}
+
+.external_links {
+  padding-top: 20px;
+  font-size: medium;
+}
+
+.button {
+    background-color: #4CAF50; /* green */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    text-decoration: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+#Daniel-Wildberger {
+  position: absolute;
+  padding-right: 50px;
+  opacity: 0;
+}
+
+#shima-rashnoodi {
+  position: absolute;
+  padding-right: 50px;
+  opacity: 0;
+  padding-bottom: 30px;
+}
+
